@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import Jamming from '../public/assets/projects/Jamming.png';
+import Jamming from '/public/assets/projects/Jamming.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
