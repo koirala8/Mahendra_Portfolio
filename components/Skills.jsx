@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import React from 'react';
-import Tailwind from '/public/assets/skills/tailwind.png';
 
 const Skills = () => {
   return (
