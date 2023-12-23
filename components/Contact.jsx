@@ -5,7 +5,6 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
-import ContactImg from '/public/assets/contact.jpg';
 
 const Contact = () => {
   return (
@@ -21,8 +20,10 @@ const Contact = () => {
               <div>
                 <Image
                   className='duration-300 ease-in rounded-xl hover:scale-105'
-                  src={ContactImg}
+                  src='/assets/contact.jpg'
                   alt='/'
+                  width='200'
+                  height='200'
                 />
               </div>
               <div>

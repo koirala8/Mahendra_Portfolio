@@ -4,31 +4,30 @@ import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-// import { useRouter } from 'next/router';
-import NavLogo from '/public/assets/navLogo.png'
+import { useRouter } from 'next/router';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState('#C5CBE3');
   const [linkColor, setLinkColor] = useState('#1f2937');
-  // const [position, setPosition] = useState('fixed')
-  // const router = useRouter();
+  const [position, setPosition] = useState('fixed')
+  const router = useRouter();
 
-  // useEffect(() => {
-  //   if (
-  //     router.asPath === '/property' ||
-  //     router.asPath === '/crypto' ||
-  //     router.asPath === '/netflix' ||
-  //     router.asPath === '/twitch'
-  //   ) {
-  //     setNavBg('transparent');
-  //     setLinkColor('#ecf0f3');
-  //   } else {
-  //     setNavBg('#ecf0f3');
-  //     setLinkColor('#1f2937');
-  //   }
-  // }, [router]);
+  useEffect(() => {
+     if (
+       router.asPath === '/property' ||
+       router.asPath === '/crypto' ||
+       router.asPath === '/netflix' ||
+       router.asPath === '/twitch'
+     ) {
+       setNavBg('transparent');
+       setLinkColor('#ecf0f3');
+     } else {
+       setNavBg('#ecf0f3');
+       setLinkColor('#1f2937');
+     }
+   }, [router]);
 
   const handleNav = () => {
     setNav(!nav);
@@ -58,22 +57,22 @@ const Navbar = () => {
  
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
-            <li className='ml-10 font-semibold font-sans text-lg uppercase duration-300 ease-in hover:text-purple-800 hover:scale-110 text-[#5651e5]'>
+            <li className='ml-10 font-sans text-lg uppercase duration-300 ease-in hover:text-purple-800 hover:scale-110 text-[#5651e5]'>
               <Link href='/'>Home</Link>
             </li>
-            <li className='ml-10 font-semibold font-sans text-lg uppercase duration-300 ease-in hover:text-purple-800 hover:scale-110 text-[#5651e5]'>
+            <li className='ml-10 font-sans text-lg uppercase duration-300 ease-in hover:text-purple-800 hover:scale-110 text-[#5651e5]'>
               <Link href='/#about'>About</Link>
             </li>
-            <li className='ml-10 font-sans font-semibold text-lg uppercase duration-300 ease-in hover:text-purple-800 hover:scale-110 text-[#5651e5]'>
+            <li className='ml-10 font-sans text-lg uppercase duration-300 ease-in hover:text-purple-800 hover:scale-110 text-[#5651e5]'>
               <Link href='/#skills'>Skills</Link>
             </li>
-            <li className='ml-10 font-semibold font-sans text-lg uppercase duration-300 ease-in hover:text-purple-800 hover:scale-110 text-[#5651e5]'>
+            <li className='ml-10 font-sans text-lg uppercase duration-300 ease-in hover:text-purple-800 hover:scale-110 text-[#5651e5]'>
               <Link href='/#projects'>Projects</Link>
             </li>
-            <li className='ml-10 font-semibold font-sans text-lg uppercase duration-300 ease-in hover:text-purple-800 hover:scale-110 text-[#5651e5]'>
+            <li className='ml-10 font-sans text-lg uppercase duration-300 ease-in hover:text-purple-800 hover:scale-110 text-[#5651e5]'>
               <Link href='/resume'>Resume</Link>
             </li>
-            <li className='ml-10 font-semibold font-sans text-lg uppercase duration-300 ease-in hover:text-purple-800 hover:scale-110 text-[#5651e5]'>
+            <li className='ml-10 font-sans text-lg uppercase duration-300 ease-in hover:text-purple-800 hover:scale-110 text-[#5651e5]'>
               <Link href='/#contact'>Contact</Link>
             </li>
           </ul>
@@ -90,7 +89,7 @@ const Navbar = () => {
         <Link href='/'>
           <a>
             <Image
-              src={NavLogo}
+              src='/assets/navLogo.png'
               alt='/'
               width='50'
               height='50'
@@ -127,7 +126,7 @@ const Navbar = () => {
               <Link href='/'>
                 <a>
                   <Image
-                    src={NavLogo}
+                    src='/assets/navLogo.png'
                     width='35'
                     height='35'
                     alt='/'

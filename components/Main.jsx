@@ -9,15 +9,15 @@ import { TypeAnimation } from 'react-type-animation';
 const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center'>
-      <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
+      <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex flex-col justify-center items-center'>
         <div>
-            <Image
+          <Image
                 src="/assets/projects/Profile.jpg"
                 alt="Profile"
-                width='300'
-                height='300'
+                width='200'
+                height='200'
+                className='mt-5'
               />
-
           <h1 className='py-4 text-gray-700'>
             Hi, I'm <span className='text-[#5651e5]'>
               <TypeAnimation
