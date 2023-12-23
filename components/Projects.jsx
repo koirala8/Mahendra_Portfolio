@@ -1,8 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import Jamming from '../public/assets/projects/jamming.png';
-import QuoteApi from '../public/assets/projects/QuoteApi.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -16,15 +14,19 @@ const Projects = () => {
         <div className='grid gap-8 m-4 md:grid-cols-2'>
           <ProjectItem
             title='Mini Spotify Jamming'
-            backgroundImg={Jamming}
+            backgroundImg='/assets/projects/jamming.png'
             projectUrl='/jamming'
             tech='React JS'
+            height='200'
+            width='200'
           />
           <ProjectItem
             title='Quote API'
-            backgroundImg={QuoteApi}
+            backgroundImg='/assets/projects/QuoteApi.png'
             projectUrl='/quoteApi'
             tech='React JS'
+            height='200'
+            width='200'
           />
         </div>
       </div>
