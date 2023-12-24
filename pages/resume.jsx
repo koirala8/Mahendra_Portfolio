@@ -87,7 +87,7 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='italic font-bold'>
-            Software Engineering Intern Tech Innovators, Inc.
+              Software Engineering Intern Tech Innovators, Inc.
             </span>
             <span className='px-2'>|</span>Nepal
           </p>
@@ -111,7 +111,7 @@ const resume = () => {
           <p className='py-1 italic'> Project Management and Software Developer (Aug 2023 - Current)</p>
           <ul className='py-1 leading-relaxed list-disc list-outside px-7'>
             <li>
-              Developed and maintained front-end web apps (HTML, CSS, JavaScript, jQuery, ReactJS), deploying seamlessly 
+              Developed and maintained front-end web apps (HTML, CSS, JavaScript, jQuery, ReactJS), deploying seamlessly
               on AWS and Heroku. Consistently exceeded customer satisfaction through creative problem-solving.
             </li>
           </ul>
@@ -121,7 +121,7 @@ const resume = () => {
         <h5 className='text-center underline text-[18px] py-4'>
           Personal Projects
         </h5>
-        
+
         {/* Experience */}
         <div className='py-6'>
           <p className='italic'>
@@ -131,8 +131,8 @@ const resume = () => {
           <p className='py-1 italic'>Data Analytics (Aug 2023 - Dec 2023)</p>
           <ul className='py-1 leading-relaxed list-disc list-outside px-7'>
             <li>
-              Collaborated with Brewer Hendrix, ULM baseball team Director of Analytics. Automated Trackman analytics data 
-              processing using Python and FTP. Created a user-friendly POWER BI interface for pitch and batted ball metric 
+              Collaborated with Brewer Hendrix, ULM baseball team Director of Analytics. Automated Trackman analytics data
+              processing using Python and FTP. Created a user-friendly POWER BI interface for pitch and batted ball metric
               analysis.
             </li>
           </ul>
@@ -146,7 +146,7 @@ const resume = () => {
           <p className='py-1 italic'>API Interaction (Aug 2023 - Dec 2023)</p>
           <ul className='py-1 leading-relaxed list-disc list-outside px-7'>
             <li>
-              Developed a straightforward Quote API using Express.js, featuring routes for retrieving random quotes, person￾based quotes, and adding new quotes. Integrated a basic front-end site for seamless API interaction. 
+              Developed a straightforward Quote API using Express.js, featuring routes for retrieving random quotes, person￾based quotes, and adding new quotes. Integrated a basic front-end site for seamless API interaction.
               Technologies employed include Express.js, Node.js, HTML, CSS, and JavaScript
             </li>
           </ul>
@@ -160,7 +160,7 @@ const resume = () => {
           <p className='py-1 italic'>UI/UX Designer (June 2022 - Aug 2022)</p>
           <ul className='py-1 leading-relaxed list-disc list-outside px-7'>
             <li>
-              Collaborated with Team members to automate, University of Louisiana, PMAC Medical School applications, enhancing 
+              Collaborated with Team members to automate, University of Louisiana, PMAC Medical School applications, enhancing
               communication through web forms and scheduling algorithms.
             </li>
           </ul>

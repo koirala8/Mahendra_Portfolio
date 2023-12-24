@@ -9,25 +9,25 @@ import { useRouter } from 'next/router';
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#C5CBE3');
+  const [navBg, setNavBg] = useState('#96B6C5');
   const [linkColor, setLinkColor] = useState('#1f2937');
   const [position, setPosition] = useState('fixed')
   const router = useRouter();
 
   useEffect(() => {
-     if (
-       router.asPath === '/property' ||
-       router.asPath === '/crypto' ||
-       router.asPath === '/netflix' ||
-       router.asPath === '/twitch'
-     ) {
-       setNavBg('transparent');
-       setLinkColor('#ecf0f3');
-     } else {
-       setNavBg('#ecf0f3');
-       setLinkColor('#1f2937');
-     }
-   }, [router]);
+    if (
+      router.asPath === '/property' ||
+      router.asPath === '/crypto' ||
+      router.asPath === '/netflix' ||
+      router.asPath === '/twitch'
+    ) {
+      setNavBg('transparent');
+      setLinkColor('#ecf0f3');
+    } else {
+      setNavBg('#ADC4CE');
+      setLinkColor('#1f2937');
+    }
+  }, [router]);
 
   const handleNav = () => {
     setNav(!nav);
@@ -54,7 +54,7 @@ const Navbar = () => {
       }
     >
       <div className='flex items-center justify-between w-full h-full px-2 2xl:px-16'>
- 
+
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
             <li className='ml-10 font-sans text-lg uppercase duration-300 ease-in hover:text-purple-800 hover:scale-110 text-[#5651e5]'>
@@ -116,7 +116,7 @@ const Navbar = () => {
         >
           <div>
             <div className='flex items-center justify-between w-full'>
-              
+
               <div
                 onClick={handleNav}
                 className='p-3 rounded-full shadow-lg cursor-pointer shadow-gray-400'

@@ -5,7 +5,7 @@ import ProjectItem from './ProjectItem';
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full bg-gradient-to-r from-gray-100 to-gray-300'>
+    <div id='projects' className='w-full bg-gradient-to-r from-gray-100 to-gray-300 py-4'>
       <div className='max-w-[1240px] mx-auto px-2 py-16 '>
         <p className='mb-4 font-sans text-4xl font-bold text-[#5651e5] uppercase'>
           Projects
