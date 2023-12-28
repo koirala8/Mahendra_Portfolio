@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import Link from 'next/link';
+// Projects.jsx
+
 import React from 'react';
 import ProjectItem from './ProjectItem';
 
@@ -16,24 +16,18 @@ const Projects = () => {
             backgroundImg='/assets/projects/jamming.png'
             projectUrl='/jamming'
             tech='React JS'
-            height='200'
-            width='200'
           />
           <ProjectItem
             title='Quote API'
             backgroundImg='/assets/projects/QuoteApi.png'
             projectUrl='/quoteApi'
             tech='React JS'
-            height='200'
-            width='200'
           />
           <ProjectItem
             title='Family Restaurant, Akron-Ohio'
             backgroundImg='/assets/projects/Family.png'
             projectUrl='/family'
             tech='React JS'
-            height='200'
-            width='200'
           />
         </div>
       </div>
