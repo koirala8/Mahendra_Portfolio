@@ -9,7 +9,7 @@ import { useRouter } from 'next/router';
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#96B6C5');
+  const [navBg, setNavBg] = useState('#363062');
   const [linkColor, setLinkColor] = useState('#1f2937');
   const [position, setPosition] = useState('fixed')
   const router = useRouter();
@@ -24,7 +24,7 @@ const Navbar = () => {
       setNavBg('transparent');
       setLinkColor('#ecf0f3');
     } else {
-      setNavBg('#ADC4CE');
+      setNavBg('#363062');
       setLinkColor('#1f2937');
     }
   }, [router]);
@@ -57,22 +57,22 @@ const Navbar = () => {
 
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
-            <li className='ml-10 font-sans text-lg uppercase duration-300 ease-in hover:text-purple-800 hover:scale-110 text-[#5651e5]'>
+            <li className='ml-10 font-sans text-lg uppercase duration-300 ease-in hover:text-[#F5E8C7] hover:scale-110 text-[#F5E8C7]'>
               <Link href='/'>Home</Link>
             </li>
-            <li className='ml-10 font-sans text-lg uppercase duration-300 ease-in hover:text-purple-800 hover:scale-110 text-[#5651e5]'>
+            <li className='ml-10 font-sans text-lg uppercase duration-300 ease-in hover:text-[#F5E8C7] hover:scale-110 text-[#F5E8C7]'>
               <Link href='/#about'>About</Link>
             </li>
-            <li className='ml-10 font-sans text-lg uppercase duration-300 ease-in hover:text-purple-800 hover:scale-110 text-[#5651e5]'>
+            <li className='ml-10 font-sans text-lg uppercase duration-300 ease-in hover:text-text-[#F5E8C7] hover:scale-110 text-[#F5E8C7]'>
               <Link href='/#skills'>Skills</Link>
             </li>
-            <li className='ml-10 font-sans text-lg uppercase duration-300 ease-in hover:text-purple-800 hover:scale-110 text-[#5651e5]'>
+            <li className='ml-10 font-sans text-lg uppercase duration-300 ease-in hover:text-text-[#F5E8C7] hover:scale-110 text-[#F5E8C7]'>
               <Link href='/#projects'>Projects</Link>
             </li>
-            <li className='ml-10 font-sans text-lg uppercase duration-300 ease-in hover:text-purple-800 hover:scale-110 text-[#5651e5]'>
+            <li className='ml-10 font-sans text-lg uppercase duration-300 ease-in hover:text-text-[#F5E8C7] hover:scale-110 text-[#F5E8C7]'>
               <Link href='/resume'>Resume</Link>
             </li>
-            <li className='ml-10 font-sans text-lg uppercase duration-300 ease-in hover:text-purple-800 hover:scale-110 text-[#5651e5]'>
+            <li className='ml-10 font-sans text-lg uppercase duration-300 ease-in hover:text-text-[#F5E8C7] hover:scale-110 text-[#F5E8C7]'>
               <Link href='/#contact'>Contact</Link>
             </li>
           </ul>

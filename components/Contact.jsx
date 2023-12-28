@@ -8,14 +8,14 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
 const Contact = () => {
   return (
-    <div id='contact' className='w-full lg:h-screen py-4'>
-      <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
-        <p className='mb-4 font-sans text-4xl font-bold text-[#5651e5] uppercase'>
+    <div id='contact' className='w-full py-5 lg:h-screen'>
+      <div className='max-w-[1240px] m-auto px-2 py-16 w-full text-[#F5E8C7]'>
+        <p className='mb-4 font-sans text-4xl font-bold text-[#F5E8C7] uppercase'>
           Contact
         </p>
           <div className='grid gap-8 lg:grid-cols-5'>
           {/* left */}
-          <div className='w-full h-full col-span-3 p-4 shadow-xl lg:col-span-2 shadow-gray-400 rounded-xl'>
+          <div className='w-full h-full col-span-3 p-4 shadow-xl lg:col-span-2 rounded-xl'>
             <div className='h-full lg:p-4 '>
               <div>
                 <Image
@@ -42,7 +42,7 @@ const Contact = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110'>
+                    <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer hover:scale-110'>
                       <FaLinkedinIn />
                     </div>
                   </a>
@@ -51,17 +51,17 @@ const Contact = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110'>
+                    <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer hover:scale-110'>
                       <FaGithub />
                     </div>
                   </a>
 
-                  <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110'>
+                  <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer hover:scale-110'>
                     <AiOutlineMail />
                   </div>
                   <Link href='/resume'>
                     <a>
-                      <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110'>
+                      <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer hover:scale-110'>
                         <BsFillPersonLinesFill />
                       </div>
                     </a>
@@ -72,7 +72,7 @@ const Contact = () => {
           </div>
 
           {/* right */}
-          <div className='w-full h-auto col-span-3 shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
+          <div className='w-full h-auto col-span-3 shadow-xl rounded-xl lg:p-4'>
             <div className='p-4'>
               <form
                 action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060'
@@ -133,9 +133,9 @@ const Contact = () => {
         <div className='flex justify-center py-12'>
           <Link href='/'>
             <a>
-              <div className='p-4 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110'>
+              <div className='p-4 duration-300 ease-in rounded-full shadow-lg cursor-pointer hover:scale-110'>
                 <HiOutlineChevronDoubleUp
-                  className='text-[#5651e5]'
+                  className='text-[#F5E8C7]'
                   size={30}
                 />
               </div>

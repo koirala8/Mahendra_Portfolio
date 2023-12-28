@@ -14,7 +14,7 @@ const resume = () => {
         <link rel='icon' href='/fav.png' />
       </Head>
 
-      <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
+      <div className='max-w-[940px] mx-auto p-2 pt-[120px] bg-white'>
         <h2 className='text-center'>Resume</h2>
         <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
           <h2 className='text-center'>Mahendra Koirala</h2>

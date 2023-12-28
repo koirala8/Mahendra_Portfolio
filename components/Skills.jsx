@@ -3,13 +3,13 @@ import React from 'react';
 
 const Skills = () => {
   return (
-    <div id='skills' className='w-full p-2 lg:h-screen'>
+    <div id='skills' className='w-full lg:h-screen'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-        <p className='mb-4 font-sans text-4xl font-bold text-[#5651e5] uppercase'>
+        <h2 className='font-sans justify-center text-4xl font-bold text-[#F5E8C7] uppercase'>
           Skills
-        </p>
-        <span className='py-2 font-sans text-2xl text-purple-800'>Technical Skills</span>
-        <div className='grid grid-cols-2 gap-8 lg:grid-cols-4'>
+        </h2>
+        <span className='py-2 font-sans text-2xl text-[#F5E8C7]'>Technical Skills</span>
+        <div className='grid grid-cols-2 gap-8 lg:grid-cols-4 text-[#F5E8C7]'>
           <div className='p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105'>
             <div className='grid items-center justify-center grid-cols-2 gap-4'>
               <div className='m-auto'>
