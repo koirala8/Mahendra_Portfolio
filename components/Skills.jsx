@@ -3,7 +3,7 @@ import React from 'react';
 
 const Skills = () => {
   return (
-    <div id='skills' className='w-full lg:h-screen'>
+    <div id='skills' className='w-full h-[100vh]'>
       <div className='max-w-[1240px] px-4 mx-auto flex flex-col justify-center h-full'>
         <h2 className='font-sans justify-center text-4xl font-bold text-[#F5E8C7] uppercase'>
           Skills

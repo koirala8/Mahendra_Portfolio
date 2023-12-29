@@ -9,8 +9,8 @@ import { TypeAnimation } from 'react-type-animation';
 const Main = () => {
   return (
     <div id='home' className='py-4'>
-      <div className='w-full h-screen text-center '>
-        <div className='w-[50vh] my-10 h-full mx-auto p-2 flex flex-col justify-center items-center'>
+      <div className='w-[100%] h-[100vh] text-center'>
+        <div className='flex flex-col items-center justify-center w-full h-full p-2 my-10'>
           <div>
               <Image
                 src="/assets/projects/Profile.jpg"
@@ -35,7 +35,7 @@ const Main = () => {
                   ]}
                   wrapper="span"
                   speed={40}
-                  style={{ fontSize: '0.9em', display: 'inline-block' }}
+                  style={{ fontSize: '0.85em', display: 'inline-block' }}
                   repeat={Infinity}
                 />
 

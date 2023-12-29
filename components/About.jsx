@@ -57,14 +57,14 @@ const About = () => {
               fascination into a meaningful career.
             </p>
           </div>
-          <div className="flex p-4 duration-300 ease-in shadow-xl rounded-xl hover:scale-105">
+          <div className="flex w-full h-[50vh] p-4 mx-auto duration-300 ease-in shadow-xl rounded-xl">
             <div>
               <Image
                 src="/assets/about.jpg"
                 className="rounded-xl"
                 alt="Profile"
-                height="1000"
-                width="1000"
+                width='600px'
+                height='580px'
               />
             </div>
           </div>

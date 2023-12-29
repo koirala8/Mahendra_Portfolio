@@ -19,11 +19,11 @@ const Contact = () => {
             <div className='h-full lg:p-4 '>
               <div>
                 <Image
-                  className='duration-300 ease-in rounded-xl hover:scale-105'
+                  className='object-fill duration-300 ease-in rounded-xl hover:scale-105'
                   src='/assets/contact.jpg'
                   alt='/'
                   width='200'
-                  height='200'
+                  height='250'
                 />
               </div>
               <div>
