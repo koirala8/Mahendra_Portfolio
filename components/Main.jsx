@@ -9,8 +9,8 @@ import { TypeAnimation } from 'react-type-animation';
 const Main = () => {
   return (
     <div id='home' className='py-4'>
-      <div className='w-full h-screen text-center'>
-        <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex flex-col justify-center items-center'>
+      <div className='w-full h-screen text-center '>
+        <div className='w-[50vh] my-10 h-full mx-auto p-2 flex flex-col justify-center items-center'>
           <div>
               <Image
                 src="/assets/projects/Profile.jpg"
@@ -35,13 +35,13 @@ const Main = () => {
                   ]}
                   wrapper="span"
                   speed={40}
-                  style={{ fontSize: '1.0em', display: 'inline-block' }}
+                  style={{ fontSize: '0.9em', display: 'inline-block' }}
                   repeat={Infinity}
                 />
 
               </span>
             </h1>
-            <h1 className='py-2 text-[#F5E8C7]'>A Full-Stack Web Developer</h1>
+            <h2 className='py-2 text-[#F5E8C7]'>A Full-Stack Web Developer</h2>
             <p className='py-4 text-[#F5E8C7] sm:max-w-[70%] m-auto'>
               I’m focused on building responsive front-end web applications
               integrating back-end technologies.

@@ -5,10 +5,10 @@ import Link from "next/link";
 const About = () => {
   return (
     <div id="about" className="py-5">
-      <div className="flex items-stretch w-full p-4 py-16 font-sans bg-gradient-to-r from-[#818FB4]">
-        <div className="max-w-[1240px] mx-auto md:grid grid-cols-2 gap-8 justify-between">
+      <div className="flex items-stretch w-full px-4 my-14 py-8 font-sans bg-gradient-to-r from-[#818FB4] ">
+        <div className="max-w-[1240px] mx-auto md:grid grid-cols-2 gap-8">
           <div className="col-span-1">
-            <h2 className="mb-10 font-sans text-4xl font-bold text-[#EEF5FF] uppercase content-center">
+            <h2 className="mb-10 font-sans text-4xl font-bold text-[#EEF5FF] uppercase">
               About Me
             </h2>
             <span className="py-2 mt-4 font-sans text-2xl text-[#F5E8C7]">
@@ -57,7 +57,7 @@ const About = () => {
               fascination into a meaningful career.
             </p>
           </div>
-          <div className="flex items-center justify-end w-full h-auto p-4 duration-300 ease-in shadow-xl rounded-xl hover:scale-105 ">
+          <div className="flex p-4 duration-300 ease-in shadow-xl rounded-xl hover:scale-105">
             <div>
               <Image
                 src="/assets/about.jpg"
@@ -68,6 +68,7 @@ const About = () => {
               />
             </div>
           </div>
+
         </div>
       </div>
     </div>
