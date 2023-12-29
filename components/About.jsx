@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div id="about" className="py-5">
       <div className="flex items-stretch w-full px-4 my-14 py-8 font-sans bg-gradient-to-r from-[#818FB4] ">
-        <div className="max-w-[1240px] mx-auto md:grid grid-cols-2 gap-8">
+        <div className="max-w-[1240px] mx-auto md:grid">
           <div className="col-span-1">
             <h2 className="mb-10 font-sans text-4xl font-bold text-[#EEF5FF] uppercase">
               About Me
@@ -57,19 +57,7 @@ const About = () => {
               fascination into a meaningful career.
             </p>
           </div>
-          <div className="flex w-full h-[50vh] p-4 mx-auto duration-300 ease-in shadow-xl rounded-xl">
-            <div>
-              <Image
-                src="/assets/about.jpg"
-                className="rounded-xl"
-                alt="Profile"
-                width='600px'
-                height='580px'
-              />
-            </div>
           </div>
-
-        </div>
       </div>
     </div>
   );

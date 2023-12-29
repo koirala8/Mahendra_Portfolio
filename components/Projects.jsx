@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div id='projects' className='w-full bg-gradient-to-r from-[#818FB4] py-4'>
       <div className='max-w-[1240px] mx-auto px-2 py-16 '>
-        <p className='mb-4 font-sans text-4xl font-bold text-[#F5E8C7] uppercase'>
+        <p className='mb-4 ml-5 font-sans text-4xl font-bold text-[#F5E8C7] uppercase'>
           Projects
         </p>
         <div className='grid gap-8 m-6 md:grid-cols-1 text-[#F5E8C7]'>

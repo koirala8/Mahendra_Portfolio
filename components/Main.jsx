@@ -9,7 +9,7 @@ import { TypeAnimation } from 'react-type-animation';
 const Main = () => {
   return (
     <div id='home' className='py-4'>
-      <div className='w-[100%] h-[100vh] text-center'>
+      <div className='w-[110%] h-[110vh] text-center'>
         <div className='flex flex-col items-center justify-center w-full h-full p-2 my-10'>
           <div>
               <Image
